@@ -82,3 +82,8 @@ nav:after{
 .accountBody{
     background-color: black;
 }
+
+.UserInfo{
+    color:white;
+    padding-left: 10%;
+}
