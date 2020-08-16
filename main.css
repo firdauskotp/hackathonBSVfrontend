@@ -1,0 +1,80 @@
+.dashboardBody{
+    background-image: url("landpageWallpaper.jpg");
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: block;
+    padding: 0 25px;
+    font-size: 14px;
+    line-height: 30px;
+    position:relative;
+    z-index:1;
+}
+
+.menu li{
+    list-style:none;
+    display: inline-block;
+    color: #fff;
+}
+
+.lePadding{
+    padding-top:10px;
+}
+
+nav{
+    position:relative;
+    padding: 10px 20px 10px 10px;
+    text-align:right;
+    z-index: 1;
+    background: #333;
+    margin: 0 auto;
+    width:calc(100%-60px);
+}
+
+.logo{
+    width: 15%;
+    float: left;
+    text-transform:uppercase;
+    color:#fff;
+    font-size: 25px;
+    text-align: left;
+    padding-left: 2%;
+}
+
+.menu li a:hover{
+    background: cyan;
+    color: rgb(0, 0, 0);
+}
+
+nav:before{
+    position:absolute;
+    content: '';
+    left: 0;
+    text-justify: 100%;
+    border-top:10px solid #333;
+    border-right:10px solid #333;
+    border-left:10px solid transparent;
+    border-bottom:10px solid transparent;
+}
+
+nav:after{
+    position: absolute;
+    content: '';
+    border-top:10px solid #333;
+    border-left:10px solid #333;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    top:100%;
+}
+
+.introPara{
+    color:black;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 70;
+    font-weight: 700;
+}
