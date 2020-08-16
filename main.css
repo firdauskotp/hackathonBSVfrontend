@@ -80,15 +80,15 @@ nav:after{
 }
 
 .accountBody{
-    background-color: black;
+    background-image: url("CompanyWallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .UserInfo{
     color:white;
     padding-left: 10%;
 }
-
-
 
 .companyBody{
     background-image: url("CompanyWallpaper.jpg");
@@ -139,4 +139,3 @@ nav:after{
     color:white;
     text-align: center;
 }
-
