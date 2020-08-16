@@ -88,6 +88,8 @@ nav:after{
     padding-left: 10%;
 }
 
+
+
 .companyBody{
     background-image: url("CompanyWallpaper.jpg");
     background-repeat: no-repeat;
@@ -126,4 +128,9 @@ nav:after{
     padding-top: 20px;
     color:white;
     text-align: center;
+}
+
+.UserRegister{
+    color:white;
+    padding-left: 10%;
 }
